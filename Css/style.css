@@ -80,7 +80,11 @@
     }
   }
   
-  
+  .contenedor{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
   
 .imagenesindex{
     width: 100%;
@@ -544,6 +548,9 @@ h2{
         font-size: 40px;
         border-radius: 100px;
         padding-left: 10px;
+    }
+    .rotate-vert-center{
+        display: none;
     }
     .contenedor{
         flex-direction: column;
