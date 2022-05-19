@@ -8,8 +8,8 @@
     }
 .header{
     background-color: black;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,7 +43,9 @@
     color: orange;
     text-decoration: none;
 }
+
 .titulonovjump{
+    margin-top: 0;
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: orange;
@@ -235,6 +237,22 @@ padding-top: 100px;
     width: 900px;
     height: 500px;
     margin-left: 500px;
+}
+.descuento{
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.fotodesc{
+    margin-left: 100px;
+}
+
+.promotext{
+    background-color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 /*manga comic*/
