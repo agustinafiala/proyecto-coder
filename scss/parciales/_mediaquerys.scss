@@ -1,0 +1,187 @@
+@media screen and (max-width: 1023px) {
+    /*index*/
+     .header{
+         flex-direction: column;
+     }
+    
+     .titulonovjump{
+         margin-top: 0px;
+         font-size: 40px;
+         border-radius: 100px;
+         padding-left: 10px;
+     }
+     .imagenesindex{
+         width: 100%;
+         height: 200px;
+         padding: 10px;
+     }
+    .imagenmedio{
+        display: none;
+     }
+     .botonmedio{
+         font-size: 35px;
+    }
+    .titulosomos{
+     text-align: center;
+      font-size: 30px
+ }
+ .textomid{
+     font-size: 25px;
+ }
+ 
+ .editoriales{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     text-align: center;
+ }
+ .titulo1{
+     font-size: 35px;
+ }
+ 
+ .boton{
+     font-size:30px;
+ }
+ 
+ .tarjeta_ivrea{
+     width: 300px;
+     height: 300px;
+ 
+ }
+ .tarjeta_panini{
+     width: 300px;
+     height: 300px;
+     
+ }
+ .tarjeta_ovnipress{
+     width: 300px;
+     height: 300px;  }
+ 
+     /*productos*/
+     .categories__grid{
+         grid-template-columns: repeat(3, 1fr);
+         grid-template-rows: repeat(4, 220px);
+         gap: 1rem;
+     }
+    
+  }
+ 
+  @media screen and (max-width: 600px) {
+     /*index*/
+     .header{
+          flex-direction: row;
+      }
+      .headeropen{
+         display: block;
+         text-decoration: none;
+         color: white;
+         font-size: 40px;
+     }
+     #lateral {
+         display: block;
+         width: 80%;
+         height: 100vh;
+         position: fixed;
+         top: 0;
+         right:-100%;
+         z-index: 100;
+         transition: right 1s;
+     }
+     #lateral:target{
+         right: 0;
+     }
+ 
+     .nav__lista{
+         height: 100%;
+         flex-direction: column;
+         font-size: 25px;
+     }
+      .nav{
+          display: none;
+      }
+      .titulonovjump{
+         margin-top: 0px;
+         font-size: 40px;
+         border-radius: 100px;
+         padding-left: 10px;
+     }
+     .rotate-vert-center{
+         display: none;
+     }
+     .contenedor{
+         flex-direction: column;
+     }
+ 
+     .imagenesindex{
+         width: 100%;
+         height: 300px;
+         padding: 10px;
+ 
+     }
+    .imagenmedio{
+        display: none;
+     }
+     .botonmedio{
+         font-size: 35px;
+    }
+    .titulosomos{
+     text-align: center;
+      font-size: 30px
+ }
+ .textomid{
+     font-size: 20px;
+ }
+ 
+ .titulo1{
+     font-size: 35px;
+ }
+ 
+ .boton{
+     font-size:30px;
+ }
+ .editoriales{
+     flex-direction: column;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+ }
+ 
+ .tarjeta_ivrea{
+     width: 300px;
+     height: 300px;
+     margin-bottom: 80px;
+ }
+ .tarjeta_panini{
+     width: 300px;
+     height: 300px;
+     margin-bottom: 80px;
+ }
+ .tarjeta_ovnipress{
+     width: 300px;
+     height: 300px;
+     margin-bottom: 80px;
+ }
+ .nav__itemclose{
+     display: block;
+ }
+ /*productos*/
+ .categories__grid{
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(6, 220px);
+     gap: 1rem;
+ }
+ .categories__img{
+     position: absolute;
+     right: 15px;
+     bottom: 10px;
+     border-radius: 10px;
+ }
+ h2{
+     font-size: 20px;
+     }
+     .categories__title{
+         font-size: 25px;
+         text-align: left;
+     }
+    
+   }

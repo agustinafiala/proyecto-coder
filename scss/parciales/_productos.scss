@@ -1,0 +1,20 @@
+/*productos*/
+.categories__grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 220px);
+    gap: 1rem;
+}
+.categories__item{
+    background-color: #333333;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0;
+    position: relative;
+}
+.categories__img{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    border-radius: 10px;
+}

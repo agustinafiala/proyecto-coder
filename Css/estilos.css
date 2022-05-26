@@ -1,0 +1,680 @@
+* {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+}
+
+.header {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__marca {
+  width: 200px;
+  height: 100px;
+}
+
+.header__logo {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  background-color: black;
+  padding: 1rem;
+}
+
+.nav__lista {
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__item {
+  margin-left: 16px;
+}
+
+.nav__enlace {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  text-decoration: none;
+}
+
+.nav__enlace:hover {
+  color: #f0d197;
+}
+
+.titulonovjump {
+  margin-top: 0;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+  border-radius: 100px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.rotate-vert-center {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagenesindex {
+  width: 100%;
+  height: 400px;
+}
+
+.botonmedio {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+  font-size: 40px;
+  border-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.titulosomos {
+  text-align: left;
+  color: white;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.textomid {
+  text-align: center;
+  font-size: 30px;
+}
+
+.medio {
+  text-align: center;
+  padding-top: 60px;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 70px;
+}
+
+.editoriales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.titulo1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+.titulo2 {
+  background-color: orange;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 40px;
+}
+
+.boton {
+  color: orange;
+  background-color: white;
+  font-size: 40px;
+  border-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.fondotarjeta {
+  background-color: orange;
+}
+
+.tarjeta_ivrea {
+  background-color: orange;
+  color: white;
+  width: 300px;
+  height: 400px;
+  padding: 0px;
+  border: 8px solid white;
+  border-radius: 32px;
+}
+
+.tarjeta_panini {
+  background-color: orange;
+  color: white;
+  width: 300px;
+  height: 400px;
+  padding: 0px;
+  border: 8px solid white;
+  border-radius: 32px;
+}
+
+.tarjeta_ovnipress {
+  background-color: orange;
+  color: white;
+  width: 300px;
+  height: 400px;
+  padding: 0px;
+  border: 8px solid white;
+  border-radius: 32px;
+}
+
+footer {
+  padding-top: 100px;
+}
+
+/*contacto pagina*/
+.contactopadre {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gradientes {
+  background-image: linear-gradient(to left, black, orange);
+  width: 100%;
+  height: 200px;
+  padding-top: 70px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.texticontacto {
+  color: white;
+  font-size: 25px;
+  background-color: orange;
+  border-radius: 6px;
+}
+
+.botoncontacto {
+  color: white;
+  background-color: orange;
+  font-size: 20px;
+  border-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*pagina novedades */
+.titulonovedades {
+  background-color: red;
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: double;
+  border-radius: 10px;
+}
+
+.titulonovedadesdos {
+  font-size: 30px;
+  background-color: orange;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 80px;
+}
+
+.preventaimg {
+  border-radius: 10px;
+  width: 900px;
+  height: 500px;
+  margin-left: 500px;
+}
+
+.descuento {
+  font-size: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fotodesc {
+  margin-left: 100px;
+}
+
+.promotext {
+  background-color: red;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+/*manga comic*/
+.titulomangacomic {
+  text-align: left;
+  display: flex;
+  background-color: orange;
+  font-size: 30px;
+}
+
+.barrabusqueda {
+  text-align: right;
+}
+
+.imagenesmanga {
+  display: flexbox;
+}
+
+.titulocontacto {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 60px;
+  border: 3px;
+}
+
+.grid-mangas {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imagenesgrid {
+  width: 100%;
+  height: 100%;
+}
+
+.caja1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja6 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja7 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja9 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja10 img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja1 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja2 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja3 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja4 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja5 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja6 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja7 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja8 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja9 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.caja10 {
+  width: 180px;
+  height: 250px;
+  border: 4px solid orange;
+  background-color: orange;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.headeropen {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+  background-color: #333333;
+}
+
+.nav__itemclose {
+  display: none;
+}
+
+/*productos*/
+.categories__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 220px);
+  gap: 1rem;
+}
+
+.categories__item {
+  background-color: #333333;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0;
+  position: relative;
+}
+
+.categories__img {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  /*index*/
+  .header {
+    flex-direction: column;
+  }
+  .titulonovjump {
+    margin-top: 0px;
+    font-size: 40px;
+    border-radius: 100px;
+    padding-left: 10px;
+  }
+  .imagenesindex {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+  }
+  .imagenmedio {
+    display: none;
+  }
+  .botonmedio {
+    font-size: 35px;
+  }
+  .titulosomos {
+    text-align: center;
+    font-size: 30px;
+  }
+  .textomid {
+    font-size: 25px;
+  }
+  .editoriales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .titulo1 {
+    font-size: 35px;
+  }
+  .boton {
+    font-size: 30px;
+  }
+  .tarjeta_ivrea {
+    width: 300px;
+    height: 300px;
+  }
+  .tarjeta_panini {
+    width: 300px;
+    height: 300px;
+  }
+  .tarjeta_ovnipress {
+    width: 300px;
+    height: 300px;
+  }
+  /*productos*/
+  .categories__grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 220px);
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*index*/
+  .header {
+    flex-direction: row;
+  }
+  .headeropen {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+  }
+  #lateral {
+    display: block;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    transition: right 1s;
+  }
+  #lateral:target {
+    right: 0;
+  }
+  .nav__lista {
+    height: 100%;
+    flex-direction: column;
+    font-size: 25px;
+  }
+  .nav {
+    display: none;
+  }
+  .titulonovjump {
+    margin-top: 0px;
+    font-size: 40px;
+    border-radius: 100px;
+    padding-left: 10px;
+  }
+  .rotate-vert-center {
+    display: none;
+  }
+  .contenedor {
+    flex-direction: column;
+  }
+  .imagenesindex {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+  }
+  .imagenmedio {
+    display: none;
+  }
+  .botonmedio {
+    font-size: 35px;
+  }
+  .titulosomos {
+    text-align: center;
+    font-size: 30px;
+  }
+  .textomid {
+    font-size: 20px;
+  }
+  .titulo1 {
+    font-size: 35px;
+  }
+  .boton {
+    font-size: 30px;
+  }
+  .editoriales {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .tarjeta_ivrea {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 80px;
+  }
+  .tarjeta_panini {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 80px;
+  }
+  .tarjeta_ovnipress {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 80px;
+  }
+  .nav__itemclose {
+    display: block;
+  }
+  /*productos*/
+  .categories__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 220px);
+    gap: 1rem;
+  }
+  .categories__img {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    border-radius: 10px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .categories__title {
+    font-size: 25px;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,28 @@
+/*contacto pagina*/
+.contactopadre{
+    flex-direction: column;
+     justify-content: space-between;
+ }
+ .gradientes{
+     background-image: linear-gradient(to left, black, orange);
+     width: 100%;
+     height: 200px;
+     padding-top: 70px;
+     font-size: 30px;
+     text-align: center;
+ }
+ .texticontacto{
+     color: white;
+    font-size: 25px;
+    background-color: orange;
+    border-radius: 6px;
+ }
+ .botoncontacto {
+     color: white;
+     background-color: orange;
+     font-size:20px;
+     border-color: white;
+     border-radius: 5px;
+     text-align: center;
+     
+ }
