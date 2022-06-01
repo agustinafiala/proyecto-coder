@@ -1,6 +1,6 @@
 * {
   background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   text-decoration: none;
   box-sizing: border-box;
   color: white;
@@ -45,7 +45,7 @@
 }
 
 .nav__enlace {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   color: orange;
   text-decoration: none;
 }
@@ -57,7 +57,7 @@
 .titulonovjump {
   margin-top: 0;
   font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   background-color: orange;
   border-radius: 100px;
 }
@@ -108,7 +108,7 @@
 
 .botonmedio {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   background-color: orange;
   font-size: 40px;
   border-color: white;
@@ -120,7 +120,7 @@
   text-align: left;
   color: white;
   font-style: oblique;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   font-size: 40px;
 }
 
@@ -275,7 +275,7 @@ footer {
 .promotext {
   background-color: red;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   font-size: 25px;
 }
 
@@ -291,12 +291,8 @@ footer {
   text-align: right;
 }
 
-.imagenesmanga {
-  display: flexbox;
-}
-
 .titulocontacto {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   background-color: orange;
   border-radius: 100px;
   padding: 10px;
@@ -304,168 +300,26 @@ footer {
   border: 3px;
 }
 
-.grid-mangas {
+.categories__gridmc {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 400px);
+  gap: 1rem;
 }
 
-.imagenesgrid {
-  width: 100%;
-  height: 100%;
+.categories__itemmc {
+  background-color: #333333;
+  color: #fff;
+  border-radius: 0px;
+  padding: 10px;
+  position: relative;
 }
 
-.caja1 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja2 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja3 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja4 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja5 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja6 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja7 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja8 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja9 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja10 img {
-  width: 100%;
-  height: 100%;
-}
-
-.caja1 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja2 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja3 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja4 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja5 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja6 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja7 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja8 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja9 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.caja10 {
-  width: 180px;
-  height: 250px;
-  border: 4px solid orange;
-  background-color: orange;
-  margin: 15px;
-  text-align: center;
-  line-height: 150px;
+.categories__imgmc {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+  align-content: center;
 }
 
 .headeropen {
@@ -500,7 +354,7 @@ h2 {
 .categories__img {
   position: absolute;
   right: 50px;
-  bottom: 10px;
+  bottom: 30px;
   border-radius: 10px;
 }
 
@@ -556,6 +410,37 @@ h2 {
   .tarjeta_ovnipress {
     width: 300px;
     height: 300px;
+  }
+  /*manga y comic*/
+  .titulomangacomic {
+    text-align: center;
+    display: flex;
+    background-color: orange;
+    font-size: 30px;
+  }
+  .barrabusqueda {
+    display: none;
+  }
+  .titulocontacto {
+    border-radius: 100px;
+    padding: 10px;
+    margin: 60px;
+    border: 3px;
+  }
+  .categories__gridmc {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 1rem;
+  }
+  .categories__itemmc {
+    padding: 20px;
+    position: relative;
+  }
+  .categories__imgmc {
+    width: 120px;
+    height: 200px;
+    position: absolute;
   }
   /*productos*/
   .categories__grid {
@@ -656,6 +541,37 @@ h2 {
   }
   .nav__itemclose {
     display: block;
+  }
+  /*manga y comic*/
+  .titulomangacomic {
+    text-align: center;
+    display: flex;
+    background-color: orange;
+    font-size: 30px;
+  }
+  .barrabusqueda {
+    display: none;
+  }
+  .titulocontacto {
+    border-radius: 100px;
+    padding: 10px;
+    margin: 60px;
+    border: 3px;
+  }
+  .categories__gridmc {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(6, 300px);
+    gap: 1rem;
+  }
+  .categories__itemmc {
+    padding: 20px;
+    position: relative;
+  }
+  .categories__imgmc {
+    width: 100px;
+    height: 150px;
+    position: absolute;
   }
   /*productos*/
   .categories__grid {

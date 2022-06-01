@@ -55,8 +55,44 @@
  }
  .tarjeta_ovnipress{
      width: 300px;
-     height: 300px;  }
+     height: 300px;  
+    }
  
+    /*manga y comic*/
+
+ .titulomangacomic{
+    text-align: center;
+    display: flex;
+    background-color: orange;
+    font-size: 30px;
+}
+.barrabusqueda{
+display: none;
+}
+
+.titulocontacto{
+    border-radius: 100px;
+    padding: 10px;
+    margin: 60px;
+    border: 3px;
+}
+
+.categories__gridmc{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 1rem; 
+}
+.categories__itemmc{
+    padding: 20px;
+    position: relative;
+}
+.categories__imgmc{
+    width: 120px;
+    height: 200px;
+    position: absolute;
+
+}
      /*productos*/
      .categories__grid{
          grid-template-columns: repeat(3, 1fr);
@@ -164,6 +200,42 @@
  .nav__itemclose{
      display: block;
  }
+ /*manga y comic*/
+
+ .titulomangacomic{
+    text-align: center;
+    display: flex;
+    background-color: orange;
+    font-size: 30px;
+}
+.barrabusqueda{
+display: none;
+}
+
+.titulocontacto{
+    border-radius: 100px;
+    padding: 10px;
+    margin: 60px;
+    border: 3px;
+}
+
+.categories__gridmc{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(6, 300px);
+    gap: 1rem; 
+}
+.categories__itemmc{
+    padding: 20px;
+    position: relative;
+}
+.categories__imgmc{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+
+}
+
  /*productos*/
  .categories__grid{
      grid-template-columns: repeat(2, 1fr);
