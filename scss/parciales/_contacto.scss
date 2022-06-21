@@ -1,28 +1,106 @@
 /*contacto pagina*/
-.contactopadre{
-    flex-direction: column;
-     justify-content: space-between;
- }
- .gradientes{
-     background-image: linear-gradient(to left, black, orange);
-     width: 100%;
-     height: 200px;
-     padding-top: 70px;
-     font-size: 30px;
-     text-align: center;
- }
- .texticontacto{
-     color: white;
-    font-size: 25px;
-    background-color: orange;
-    border-radius: 6px;
- }
- .botoncontacto {
-     color: white;
-     background-color: orange;
-     font-size:20px;
-     border-color: white;
-     border-radius: 5px;
-     text-align: center;
-     
- }
+
+
+
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(/fotos/contactofondo.jpg); 
+  }
+   
+  h3{
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: black; 
+    padding-left: 30px; 
+  }
+  .contactob{
+    color: white;
+    font-size: 20px;
+    
+    
+  }
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: orange; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  

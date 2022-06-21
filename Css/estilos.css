@@ -203,39 +203,175 @@ h1 {
   border-radius: 32px;
 }
 
-footer {
-  padding-top: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*footer*/
+.piedepagina {
+  background-color: black;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.piedepagina .grupo1 {
+  width: 500%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  padding: 80px 0px;
+}
+
+.piedepagina .grupo1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piedepagina .grupo1 .box figure img {
+  width: 250px;
+}
+
+.piedepagina .grupo1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.piedepagina .grupo1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.piedepagina .grupo1 .redessociales a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  margin-right: 30px;
+  margin-left: 30px;
+  line-height: 40px;
+  color: #fff;
+  background-color: orange;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.piedepagina .grupo1 .redessociales a:hover {
+  color: orange;
+}
+
+.piedepagina .grupo2 {
+  background-color: black;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.piedepagina .grupo2 small {
+  font-size: 15px;
+  background-color: black;
 }
 
 /*contacto pagina*/
-.contactopadre {
-  flex-direction: column;
-  justify-content: space-between;
+body {
+  height: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url(/fotos/contactofondo.jpg);
 }
 
-.gradientes {
-  background-image: linear-gradient(to left, black, orange);
-  width: 100%;
-  height: 200px;
-  padding-top: 70px;
+h3 {
+  text-align: center;
   font-size: 30px;
-  text-align: center;
 }
 
-.texticontacto {
-  color: white;
-  font-size: 25px;
-  background-color: orange;
-  border-radius: 6px;
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: black;
+  padding-left: 30px;
 }
 
-.botoncontacto {
+.contactob {
   color: white;
-  background-color: orange;
   font-size: 20px;
-  border-color: white;
-  border-radius: 5px;
   text-align: center;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button p {
+  color: #fff;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
 }
 
 /*pagina novedades */
@@ -411,6 +547,20 @@ h2 {
     width: 300px;
     height: 300px;
   }
+  /*footer*/
+  .piedepagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  .piedepagina .grupo1 .redessociales a {
+    width: 45px;
+    height: 45px;
+    margin-right: 30px;
+    margin-left: 160px;
+    line-height: 40px;
+  }
   /*manga y comic*/
   .titulomangacomic {
     text-align: center;
@@ -541,6 +691,20 @@ h2 {
   }
   .nav__itemclose {
     display: block;
+  }
+  /*footer*/
+  .piedepagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  .piedepagina .grupo1 .redessociales a {
+    width: 45px;
+    height: 45px;
+    margin-right: 30px;
+    margin-left: 60px;
+    line-height: 40px;
   }
   /*manga y comic*/
   .titulomangacomic {
